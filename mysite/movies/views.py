@@ -8,3 +8,5 @@ class MovieViewSet(viewsets.ModelViewSet):
     queryset=Moviedata.objects.all()
     serializer_class=MovieSerializer
 # Create your views here.
+
+
